@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/logo.svg" alt="CapTab logo" height="80">
+</p>
+
 <h1 align="center">CapTab</h1>
 
 <p align="center">
@@ -7,6 +11,10 @@
 
 <p align="center">
   <a href="https://new.captabapp.com"><strong>Live Product → new.captabapp.com</strong></a>
+</p>
+
+<p align="center">
+  <img src="docs/banner.svg" alt="CapTab — Multi-tenant Pharmacy ERP" width="900">
 </p>
 
 ---

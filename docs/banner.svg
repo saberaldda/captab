@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-label="CapTab — Multi-tenant Pharmacy ERP">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06172e"/>
+      <stop offset="0.55" stop-color="#0a2040"/>
+      <stop offset="1" stop-color="#041020"/>
+    </linearGradient>
+    <!-- CapTab brand blue -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0277BF"/>
+      <stop offset="1" stop-color="#1a9be0"/>
+    </linearGradient>
+    <!-- CapTab brand green (from logo) -->
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7AB002"/>
+      <stop offset="1" stop-color="#96d402"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.2" r="0.55">
+      <stop offset="0" stop-color="#0277BF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#0277BF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+
+  <g transform="translate(80,64)">
+    <text x="0" y="0" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="20" font-weight="600" letter-spacing="6" fill="url(#accent)">MULTI-TENANT ERP</text>
+
+    <text x="0" y="78" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="80" font-weight="800" fill="#f0f8ff">CapTab</text>
+
+    <text x="0" y="132" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="24" fill="#b8d4f0">Pharmacy ERP — inventory, POS, analytics, mobile.</text>
+    <text x="0" y="165" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="17" fill="#7aadcf">Offline-first · bilingual AR/EN · Laravel 11 + Filament 3 · iOS &amp; Android</text>
+
+    <g transform="translate(0,198)" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="15">
+      <rect x="0" y="0" width="540" height="38" rx="6" fill="#020d1a" stroke="#0d3a5e"/>
+      <text x="14" y="25" fill="#7aadcf">🌐</text>
+      <text x="38" y="25" fill="#1a9be0">new.captabapp.com</text>
+      <text x="228" y="25" fill="#2a5a7a"> · </text>
+      <text x="244" y="25" fill="#7aadcf">Laravel 11 · Filament 3 · Sanctum · MySQL</text>
+    </g>
+  </g>
+
+  <!-- Mock admin panel card — blue/green CapTab brand -->
+  <g transform="translate(878,68)" opacity="0.93">
+    <rect x="0" y="0" width="268" height="196" rx="12" fill="#020d1a" stroke="#0d3a5e"/>
+    <!-- Header bar -->
+    <rect x="0" y="0" width="268" height="38" rx="12" fill="#0a2040"/>
+    <rect x="0" y="26" width="268" height="12" fill="#0a2040"/>
+    <circle cx="18" cy="19" r="6" fill="#0277BF" opacity="0.8"/>
+    <text x="32" y="24" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#1a9be0" font-weight="600">CapTab Admin</text>
+    <!-- Green indicator dot -->
+    <circle cx="248" cy="19" r="5" fill="#7AB002"/>
+    <!-- Stats row -->
+    <rect x="12" y="50" width="72" height="42" rx="6" fill="#071628"/>
+    <text x="48" y="69" font-family="ui-monospace, monospace" font-size="14" font-weight="700" fill="#1a9be0" text-anchor="middle">1,284</text>
+    <text x="48" y="83" font-family="ui-sans-serif, sans-serif" font-size="9" fill="#4a7a9b" text-anchor="middle">Products</text>
+    <rect x="96" y="50" width="72" height="42" rx="6" fill="#071628"/>
+    <text x="132" y="69" font-family="ui-monospace, monospace" font-size="14" font-weight="700" fill="#EEC10C" text-anchor="middle">₪ 48k</text>
+    <text x="132" y="83" font-family="ui-sans-serif, sans-serif" font-size="9" fill="#4a7a9b" text-anchor="middle">Revenue</text>
+    <rect x="180" y="50" width="72" height="42" rx="6" fill="#071628"/>
+    <text x="216" y="69" font-family="ui-monospace, monospace" font-size="14" font-weight="700" fill="#7AB002" text-anchor="middle">12</text>
+    <text x="216" y="83" font-family="ui-sans-serif, sans-serif" font-size="9" fill="#4a7a9b" text-anchor="middle">Tenants</text>
+    <!-- Table rows -->
+    <rect x="12" y="106" width="244" height="8" rx="3" fill="#0d3a5e" opacity="0.7"/>
+    <rect x="12" y="122" width="210" height="8" rx="3" fill="#071628"/>
+    <rect x="12" y="138" width="230" height="8" rx="3" fill="#0d3a5e" opacity="0.7"/>
+    <rect x="12" y="154" width="190" height="8" rx="3" fill="#071628"/>
+    <!-- POS button — brand blue -->
+    <rect x="12" y="170" width="112" height="16" rx="5" fill="url(#accent)"/>
+    <text x="68" y="181" font-family="ui-sans-serif, sans-serif" font-size="8" font-weight="700" fill="#ffffff" text-anchor="middle">POINT OF SALE</text>
+    <!-- Green secondary button -->
+    <rect x="136" y="170" width="76" height="16" rx="5" fill="url(#green)"/>
+    <text x="174" y="181" font-family="ui-sans-serif, sans-serif" font-size="8" font-weight="700" fill="#ffffff" text-anchor="middle">INVENTORY</text>
+  </g>
+</svg>
